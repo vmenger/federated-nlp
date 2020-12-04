@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "federated-nlp"
+version = "0.1.0"
+description = "Some ideas and code for federated NLP"
+authors = ["Vincent Menger <vmenger@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+gensim = "^3.8.3"
+spacy = "^2.3.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
